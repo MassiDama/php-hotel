@@ -69,7 +69,7 @@
     foreach($hotels as $hotel) {
 
         echo "<tr>"; 
-            echo "<td>" . $hotel['name'] . "</td>";
+            echo "<th>" . $hotel['name'] . "</th>";
             echo "<td>" . $hotel['description'] . "</td>";
             echo "<td>" . ($hotel['parking'] ? 'Yes' : 'No') . "</td>";
             echo "<td>" . $hotel['vote'] . "</td>";
